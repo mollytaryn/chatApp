@@ -1,0 +1,75 @@
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// body {
+//   margin: 20px;
+// }
+
+h1 {
+  text-align: center;
+  padding: 60px 0;
+  color: white;
+  background-color: #FF248A;
+  font-family: Open Sans;
+  font-size: 50px;
+  font-weight: 800;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  padding: 30px 0;
+  color: white;
+  background-color: #47FF26;
+  font-family: Open Sans;
+  font-size: 50px;
+  font-weight: 800;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+form {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 20px solid #FF5b00;
+  border-bottom: 20px solid #FF9100;
+}
+
+#submitChat {
+  background-color: white;
+  border: 2px solid #0051FF;
+  color: #0051FF;
+  padding: 5px 30px;
+  border-radius: 8px;
+}
+
+#submitChat:hover {
+  background-color: #0051FF;
+  color: white;
+}
+
+input {
+  border: 2px solid #0051FF;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+// div {
+//   background-color: #F5F5F5;
+// }
+
+// .sentMessage {
+//   background-color: #F5F5F5;
+//   padding: 20px;
+// }
+
+.singleText {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #0051FF;
+  color: white;
+}
+
+
+

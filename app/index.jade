@@ -1,0 +1,31 @@
+doctype html
+html(lang='en-US')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title My Title
+    link(rel='stylesheet', href='css/main.css')
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans:800italic,400' rel='stylesheet' type='text/css')
+  body
+      <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+      .container
+        h1 Where at?
+
+        form
+          input(type="text" placeholder="Who this?" id="senderName")
+          input(type="text" placeholder="Where you at?" id="chatBox")
+          input(type="submit" id="submitChat" value="Send")
+
+        h2 Chat
+        .sentMessage
+
+
+      // build:js js/vendor.min.js
+      // bower:js
+      // endbower
+      // endbuild
+      // build:js js/main.min.js
+      script(src="/scripts/index.js")
+      // endbuild

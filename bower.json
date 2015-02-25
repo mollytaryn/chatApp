@@ -1,0 +1,24 @@
+{
+  "name": "chatApp",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mollytaryn/chatApp",
+  "authors": [
+    "mollytaryn <mollytaryn@gmail.com>"
+  ],
+  "description": "A simple chat app",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "firebase": "~2.2.1",
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.2",
+    "lodash": "~3.3.1",
+    "bootstrap-sass": "~3.3.3"
+  }
+}
